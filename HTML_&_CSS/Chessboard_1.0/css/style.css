@@ -1,0 +1,40 @@
+/*---------- Class Selectors ---------- */
+
+.chessboard {
+  font-size: 0; /* Remove the space between divs. */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.chess-piece {
+  font-size: 60px;
+  height: 80px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 1.5px 1.5px 2px #592f25;
+  width: 80px;
+}
+
+.black-tile {
+  background-color: #734440;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+}
+
+.white-tile {
+  background-color: #f2e1d8;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+}
+
+.black-chess-pieces {
+  color: #0d0d0d;
+}
+
+.white-chess-pieces {
+  color: #f2f2f2;
+}
+
+/*---------- ID Selectors ---------- */

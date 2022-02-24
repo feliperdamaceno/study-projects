@@ -1,0 +1,35 @@
+/*---------- Class Selectors ---------- */
+
+.chessboard {
+  border: solid #0d0d0d;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.tile {
+  background-color: #f2e1d8;
+  border: 2px solid #0d0d0d;
+  font-size: 60px;
+  height: 80px;
+  text-align: center;
+  text-shadow: 1.5px 1.5px 2px #592f25;
+  width: 80px;
+}
+
+.tile-color:nth-child(odd) .tile:nth-child(even) {
+  /* Will colorize the tiles in odd to even order. */
+  background-color: #734440;
+}
+
+.tile-color:nth-child(even) .tile:nth-child(odd) {
+  /* Will colorize the tiles in even to odd order. */
+  background-color: #734440;
+}
+
+.black-piece-color {
+  color: #0d0d0d;
+}
+
+.white-piece-color {
+  color: #f2f2f2;
+}

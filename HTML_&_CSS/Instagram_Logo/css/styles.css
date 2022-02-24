@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+
+div {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  position: relative;
+  border-radius: 12rem;
+  width: 50rem;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div::before {
+  content: "";
+  border: 2.5rem solid white;
+  border-radius: 10rem;
+  position: absolute;
+  height: 35rem;
+  width: 35rem;
+}
+
+div::after {
+  content: "";
+  border: 2.5rem solid white;
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
+
+span {
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  top: 24%;
+  right: 24%;
+}

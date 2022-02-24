@@ -1,0 +1,48 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a1a;
+  height: 97vh;
+}
+
+div {
+  background-color: #b1060f;
+  height: 25rem;
+  width: 6rem;
+  position: relative;
+}
+
+div::before {
+  content: "";
+  background: #b1060f;
+  position: absolute;
+  height: 25rem;
+  width: 6rem;
+  left: 9rem;
+}
+
+div::after {
+  content: "";
+  background: #1a1a1a;
+  position: absolute;
+  height: 2rem;
+  width: 17.5rem;
+  left: -1.5rem;
+  bottom: -1rem;
+  border-radius: 50%;
+}
+
+span {
+  position: absolute;
+  height: 25rem;
+  width: 6rem;
+  background: #b1060f;
+  left: 4.6rem;
+  transform: skew(20deg);
+  box-shadow: 0 0 1rem -0.4rem;
+}

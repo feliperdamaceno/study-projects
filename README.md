@@ -1,7 +1,7 @@
-![GitHub issues](https://img.shields.io/github/issues/feliperdamaceno/study-projects)
-![GitHub forks](https://img.shields.io/github/forks/feliperdamaceno/study-projects)
-![GitHub stars](https://img.shields.io/github/stars/feliperdamaceno/study-projects)
-![GitHub last commit](https://img.shields.io/github/last-commit/feliperdamaceno/study-projects)
+<a href="https://github.com/feliperdamaceno/study-projects/issues"><img src="https://img.shields.io/github/issues/feliperdamaceno/study-projects"></a>
+<a href="https://github.com/feliperdamaceno/study-projects/network"><img src="https://img.shields.io/github/forks/feliperdamaceno/study-projects"></a>
+<a href="https://github.com/feliperdamaceno/study-projects/stargazers"><img src="https://img.shields.io/github/stars/feliperdamaceno/study-projects"></a>
+<a href="https://github.com/feliperdamaceno/study-projects/commits"><img src="https://img.shields.io/github/last-commit/feliperdamaceno/study-projects"></a>
 
 ## Study Projects
 
@@ -15,7 +15,7 @@ This repository is released under the [**MIT License**](LICENSE).
 
 This is a list of all project folders:
 
-- [HTML & CSS](https://github.com/feliperdamaceno/study-projects/HTML_&_CSS)
+- [HTML & CSS](https://github.com/feliperdamaceno/study-projects/tree/main/HTML_%26_CSS)
 
 ## From me to you
 

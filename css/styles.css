@@ -1,0 +1,295 @@
+/* =-=-=-=-=-=-= Import Section =-=-=-=-=-=-= */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap");
+
+/* =-=-=-=-=-=-= Global Styles =-=-=-=-=-=-= */
+
+:root {
+  /* Fonts */
+  --main-font: "Nunito", sans-serif;
+
+  /* Color Palete */
+  --dark-text-color: #433f59;
+  --light-text-color: #827f9f;
+  --white-color: #f7f8fa;
+  --main-color: #50afc0;
+  --highlight-color: #ff7b78;
+  --contrast-color: #dcdcdc;
+  --shadow-color: rgba(67, 63, 89, 0.5);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--dark-text-color);
+  background: var(--white-color);
+  font: 2rem var(--main-font);
+  margin: 0;
+}
+
+hr {
+  border-style: none;
+  border-top: 1px solid var(--contrast-color);
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+a.external-link {
+  font-weight: bold;
+}
+
+.external-link::after {
+  content: "open_in_new";
+  font-family: "Material Icons";
+  font-size: 90%;
+  margin-left: 0.5rem;
+  vertical-align: -0.3rem;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.external-link:hover::after,
+.external-link:focus::after {
+  opacity: 1;
+}
+
+/* =-=-=-=-=-=-= Header Styles =-=-=-=-=-=-= */
+
+header {
+  color: var(--white-color);
+  background: var(--main-color);
+  box-shadow: 0 0 4px var(--shadow-color);
+}
+
+header > nav {
+  padding: 2rem;
+  max-width: 82ch;
+  margin: 0 auto;
+  gap: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--white-color);
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  padding: 1rem 2rem;
+
+  display: inline-block;
+  transition: all 0.15s;
+}
+
+nav a,
+nav h1 {
+  border: 0.25rem solid var(--white-color);
+  border-radius: 1rem;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--dark-text-color);
+  cursor: pointer;
+  filter: opacity(0.5);
+}
+
+/* =-=-=-=-=-=-= Main Styles =-=-=-=-=-=-= */
+
+.homepage-main,
+.projects-main {
+  background: var(--white-color);
+  box-shadow: 0 4px 4px var(--shadow-color);
+
+  max-width: 82ch;
+  width: 100%;
+
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.homepage-main h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.homepage-main h2 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+main a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =-=-=-=-=-=-= Projects Page Styles =-=-=-=-=-=-= */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.projects-main h1 {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.projects-main h2 {
+  margin: 0;
+}
+
+.projects-main hr {
+  margin: 2rem 0;
+}
+
+.project-item {
+  background: var(--contrast-color);
+  color: var(--dark-text-color);
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.project-item p {
+  color: var(--light-text-color);
+}
+
+.project-item a {
+  padding: 1rem 0;
+}
+
+/* =-=-=-=-=-=-= About-me Styles =-=-=-=-=-=-= */
+
+.about-me {
+  color: var(--light-text-color);
+}
+
+.about-me p:nth-child(1) {
+  color: var(--dark-text-color);
+  font-weight: bold;
+}
+
+#highlight-name {
+  color: var(--highlight-color);
+}
+
+/* =-=-=-=-=-=-= Contact Styles =-=-=-=-=-=-= */
+
+.contact-me a {
+  display: block;
+  margin: 1.6rem 0;
+  word-break: break-word;
+}
+
+.contact-me a:nth-child(1):before {
+  content: "badge";
+  font-family: "Material Icons";
+  margin-right: 0.25rem;
+  vertical-align: -0.2rem;
+}
+
+.contact-me a:nth-child(2):before {
+  content: "phone_iphone";
+  font-family: "Material Icons";
+  margin-right: 0.25rem;
+  vertical-align: -0.2rem;
+}
+
+.contact-me a:nth-child(3):before {
+  content: "email";
+  font-family: "Material Icons";
+  margin-right: 0.25rem;
+  vertical-align: -0.3rem;
+}
+
+/* =-=-=-=-=-=-= Footer Styles =-=-=-=-=-=-= */
+
+footer {
+  color: var(--white-color);
+  background: var(--main-color);
+
+  font-weight: bold;
+  text-align: center;
+
+  gap: 0.5rem;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+footer a:hover,
+footer a:focus {
+  color: var(--dark-text-color);
+  cursor: pointer;
+  filter: opacity(0.5);
+}
+
+/* =-=-=-=-=-=-= Media Queries =-=-=-=-=-=-= */
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 650px) {
+  header > nav {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 50%;
+  }
+}

@@ -5,7 +5,7 @@
 
 ## Study Projects
 
-This repository was made in order to share all my personal study projects with the community. You can share, copy, modify and learn with all these projects as you wish 🤗
+This repository was made in order to share all my personal study projects with the community. You can share, copy, modify and learn with all these projects as you wish 😎
 
 ## Licence
 
@@ -15,7 +15,7 @@ This repository is released under the [**MIT License**](LICENSE).
 
 This is a list of all project folders:
 
-- [HTML & CSS](https://github.com/feliperdamaceno/study-projects/tree/main/HTML_%26_CSS)
+- [HTML and CSS](https://github.com/feliperdamaceno/study-projects/tree/main/projects/HTML_and_CSS)
 
 ## From me to you
 
